@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", function () {
       <p data-testid="bookItemAuthor">Penulis: ${book.author}</p>
       <p data-testid="bookItemYear">Tahun: ${book.year}</p>
       <div>
-        <button data-testid="bookItemIsCompleteButton">${book.isComplete ? "Belum selesai dibaca ✘" : "Selesai dibaca ✔"}</button>
-        <button data-testid="bookItemDeleteButton">Hapus 🗑</button>
-        <button data-testid="bookItemEditButton">Edit 🖊</button>
+        <button data-testid="bookItemIsCompleteButton">${book.isComplete ? "Belum selesai dibaca" : "Selesai dibaca"}</button>
+        <button data-testid="bookItemDeleteButton">Hapus</button>
+        <button data-testid="bookItemEditButton">Edit</button>
       </div>
     `;
 
